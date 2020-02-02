@@ -14,7 +14,11 @@
         margin-right: auto;
     }
   
- /* Style the header */
+
+
+    /*-----------------------*/
+    /*--------Header---------*/
+    /*-----------------------*/
 header {
     background-color: black;
     text-align: center;
@@ -42,14 +46,20 @@ header {
       height: auto;
   }
   
-  /* Create three unequal columns that floats next to each other */
+
+  
+    /*------------------------*/
+    /*-------Main part--------*/
+    /*------------------------*/
   .column {
     float: left;
     padding: 2px;
     height: 100%;
   }
   
-  /*        Nav                  */
+
+
+  /*----------Nav------------*/
   nav {
     width: 20%;
     font-size: 18px;
@@ -68,6 +78,7 @@ header {
 
 
 
+/*---------Aside----------*/
   aside{
       width: 15%;
       font-size: 18px;
@@ -93,7 +104,9 @@ header {
       margin-right: 0;
   }
   
-  /* Middle column */
+
+
+  /*-------Main text--------*/
   article {
     width: 65%;
     color: white;
@@ -101,6 +114,7 @@ header {
   }
 
   
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -108,7 +122,11 @@ header {
     clear: both;
   }
   
-  /* Style the footer */
+
+
+    /*------------------------*/
+    /*------Take a guess------*/
+    /*------------------------*/
   footer {
     background-color: #E95B11;
     text-align: center;
