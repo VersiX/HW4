@@ -13,6 +13,14 @@ footer{
     text-align: center;
 }
 
+em{
+    color: blue;
+}
+
+span{
+color: blue;
+}
+
 .wideImg{
     width: 100%;
     height: auto;
